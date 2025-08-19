@@ -1,0 +1,95 @@
+.bg-isometric {
+  background-image:
+    linear-gradient(
+      30deg,
+      var(--color-emerald-400) 12%,
+      transparent 12.5%,
+      transparent 87%,
+      var(--color-emerald-400) 87.5%,
+      var(--color-emerald-400)
+    ),
+    linear-gradient(
+      150deg,
+      var(--color-emerald-400) 12%,
+      transparent 12.5%,
+      transparent 87%,
+      var(--color-emerald-400) 87.5%,
+      var(--color-emerald-400)
+    ),
+    linear-gradient(
+      30deg,
+      var(--color-emerald-400) 12%,
+      transparent 12.5%,
+      transparent 87%,
+      var(--color-emerald-400) 87.5%,
+      var(--color-emerald-400)
+    ),
+    linear-gradient(
+      150deg,
+      var(--color-emerald-400) 12%,
+      transparent 12.5%,
+      transparent 87%,
+      var(--color-emerald-400) 87.5%,
+      var(--color-emerald-400)
+    ),
+    linear-gradient(
+      60deg,
+      var(--color-emerald-800) 25%,
+      transparent 25.5%,
+      transparent 75%,
+      var(--color-emerald-800) 75%,
+      var(--color-emerald-800)
+    ),
+    linear-gradient(
+      60deg,
+      var(--color-emerald-800) 25%,
+      transparent 25.5%,
+      transparent 75%,
+      var(--color-emerald-800) 75%,
+      var(--color-emerald-800)
+    );
+  background-size: 50px 88px;
+  background-position:
+    0 0,
+    0 0,
+    25px 44px,
+    25px 44px,
+    0 0,
+    25px 44px;
+}
+
+.bg-striped {
+  background-image: repeating-linear-gradient(
+    45deg,
+    var(--color-emerald-200) 0,
+    var(--color-emerald-200) 1px,
+    transparent 0,
+    transparent 50%
+  );
+  background-size: 10px 10px;
+  background-attachment: fixed;
+}
+
+.bg-checkered {
+  background-image:
+    repeating-linear-gradient(
+      45deg,
+      var(--color-emerald-200) 25%,
+      transparent 25%,
+      transparent 75%,
+      var(--color-emerald-200) 75%,
+      var(--color-emerald-200)
+    ),
+    repeating-linear-gradient(
+      45deg,
+      var(--color-emerald-200) 25%,
+      transparent 25%,
+      transparent 75%,
+      var(--color-emerald-200) 75%,
+      var(--color-emerald-200)
+    );
+  background-position:
+    0 0,
+    10px 10px;
+  background-size: 20px 20px;
+}
