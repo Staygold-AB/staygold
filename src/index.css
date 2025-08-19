@@ -1,1 +1,27 @@
 @import "tailwindcss";
+
+@theme {
+  --font-mono: "VT323", monospace;
+
+  --animate-blink: blink 1s steps(2, start) infinite;
+  @keyframes blink {
+    to {
+      visibility: hidden;
+    }
+  }
+
+  --aspect-card: 3 / 4;
+}
+
+@font-face {
+  font-family: "VT323";
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url("/assets/fonts/VT323-Regular.ttf") format("truetype");
+}
+
+body {
+  @apply font-mono;
+  -webkit-font-smoothing: antialiased;
+}
