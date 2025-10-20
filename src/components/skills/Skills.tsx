@@ -1,14 +1,16 @@
 import clsx from "clsx";
-import { Container } from "components/container";
-import { CodeIcon } from "icons/code";
-import { CoffeeIcon } from "icons/coffee";
-import { DebugCheckIcon } from "icons/debug-check";
-import { KanbanIcon } from "icons/kanban";
-import { PaintBucketIcon } from "icons/paint-bucket";
-import { ServerIcon } from "icons/server";
-import { ShipIcon } from "icons/ship";
-import { SyncIcon } from "icons/sync";
-import { ZapIcon } from "icons/zap";
+import { Container } from "components";
+import {
+  CodeIcon,
+  CoffeeIcon,
+  DebugCheckIcon,
+  KanbanIcon,
+  PaintBucketIcon,
+  ServerIcon,
+  ShipIcon,
+  SyncIcon,
+  ZapIcon,
+} from "icons";
 import { Skill } from "./Skill";
 import styles from "./skills.module.css";
 

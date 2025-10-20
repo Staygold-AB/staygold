@@ -1,7 +1,6 @@
 import clsx from "clsx";
-import { Container } from "components/container";
-import { LockIcon } from "icons/lock";
-import { RedoIcon } from "icons/redo";
+import { Container } from "components";
+import { LockIcon, RedoIcon } from "icons";
 import { useState } from "react";
 import { Box } from "./Box";
 import styles from "./experience.module.css";

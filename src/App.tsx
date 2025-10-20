@@ -1,7 +1,4 @@
-import { Contact } from "components/contact";
-import { Experience } from "components/experience";
-import { Profile } from "components/profile";
-import { Skills } from "components/skills";
+import { Contact, Experience, Profile, Skills } from "components";
 
 export default function () {
   return (

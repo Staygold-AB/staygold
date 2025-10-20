@@ -1,4 +1,4 @@
-import { ExternalLinkIcon } from "icons/external-link";
+import { ExternalLinkIcon } from "icons";
 import { Box } from "./Box";
 import { type Workplace } from "./workplaces";
 

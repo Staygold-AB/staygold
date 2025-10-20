@@ -1,4 +1,4 @@
-import { TrophyIcon } from "icons/trophy";
+import { TrophyIcon } from "icons";
 import { Bar } from "./Bar";
 
 export function Skill({

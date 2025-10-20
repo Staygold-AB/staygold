@@ -1,4 +1,4 @@
-import { Container } from "components/container";
+import { Container } from "components";
 import { useEffect, useState } from "react";
 import { bio } from "./bio";
 import { Cursor } from "./Cursor";

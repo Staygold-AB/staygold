@@ -1,8 +1,6 @@
 import avatar from "assets/avatar.png";
-import { Container } from "components/container";
-import { ExternalLinkIcon } from "icons/external-link";
-import { MailIcon } from "icons/mail";
-import { UserIcon } from "icons/user";
+import { Container } from "components";
+import { ExternalLinkIcon, MailIcon, UserIcon } from "icons";
 
 export function Contact() {
   return (
